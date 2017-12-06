@@ -1,0 +1,569 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: #3399ff;
+  text-decoration: none;
+}
+
+h1, h3, h6, p {
+  line-height: 1.4;
+}
+
+.nav_bar {
+  position:fixed;
+  background-color: white;
+  width: 100%;
+  heigth: 64px;
+  padding-top: 16px;
+  display: flex;
+}
+
+.nav_bar .logo {
+  height: 32px;
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.nav_bar .logo #colmarlogo {
+  margin-left: 24px;
+  display: inline-block;
+}
+
+.nav_bar .logo #title {
+  display: flex;
+  margin-top: 2px;
+  font-size: 1.2rem;
+}
+
+.nav_bar .logo #title #colmar {
+  font-weight: bold;
+  color: black;
+  display: inline-block;
+}
+
+.nav_bar .logo #title #academy {
+  color: silver;
+  display: inline-block;
+}
+
+.navigation {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.navigation ul {
+  text-align: right;
+  margin-right: 8px;
+}
+
+.navigation ul li {
+  font-size: 0.9rem;
+  color: dimgray;
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.navigation ul li a {
+  color: dimgray;
+}
+
+.navmobile {
+  display: none;
+}
+
+.navmobile ul {
+  text-align: center;
+}
+
+.navmobile ul li {
+  display: inline-block;
+  margin-left: 60px;
+}
+
+
+.bannerfull {
+  background-color: silver;
+  width: 100%;
+  display: flex;
+}
+
+.bannerfull img {
+  width: 60%;
+  height: 60%;
+  padding-top: 32px;
+  margin-top: 32px;
+  border-top: 32px solid silver;
+  border-bottom: 32px solid silver;
+  border-left: 24px solid silver;
+  border-right: 24px solid silver;
+}
+
+.bannerfull .bannertxt {
+  display: inline-block;
+  margin: auto;
+  width: 25%;
+}
+
+.bannerfull .bannertxt h1 {
+  font-size: 1.8rem;
+  color: #4d4d4d;
+  font-weight: bold;
+  display: inline-block;
+  margin: 16px 0px;
+}
+
+.bannerfull .bannertxt h3 {
+  font-size: 1.1rem;
+  color: #4d4d4d;
+  font-weight: bold;
+  margin: 16px 0px;
+}
+
+.bannerfull .bannertxt .bannerbutton {
+  background-color: #333333;
+  width: 80%;
+  padding: 8px 0px;
+  text-align: center;
+}
+
+.bannerfull .bannertxt .bannerbutton p {
+  color: white;
+  text-align: center;
+}
+
+
+
+.information {
+  width: 100%;
+  display: flex;
+}
+
+.information .leftinfo {
+  width: 100%;
+  border-right: 1px solid silver;
+}
+
+.information .leftinfo img {
+  width: 60%;
+  height: auto;
+  margin: 32px 24px;
+}
+
+.information .leftinfo img .imgmobile {
+  display: none;
+}
+
+.information .leftinfo .leftinfotxt {
+  width: 57%;
+}
+
+.information h1 {
+  margin-left: 24px;
+  margin-bottom: 24px;
+  font-size: 1.8rem;
+  color: #4d4d4d;
+  font-weight: bold;
+}
+
+ .information .leftinfo p {
+   font-size: 0.85rem;
+   color: dimgray;
+   margin-left: 24px;
+ }
+
+ .information .leftinfo h6 {
+   font-size: 0.7rem;
+   color: #333333;
+   margin-left: 24px;
+   margin-top: 24px;
+   margin-bottom: 32px;
+ }
+
+ .information .rightinfo {
+   width: 40%;
+   margin: auto;
+}
+
+ .information .rightinfo .info {
+   display: flex;
+   margin: auto;
+   padding: 16px;
+   border-bottom: 3px solid silver;
+}
+
+ .information .rightinfo .info img {
+   width: 35%;
+   height: 35%;
+   margin-right: 16px;
+}
+
+ .information .rightinfo .info .rightinfotxt {
+   width: 65%;
+   display: inline-block;
+   margin: auto;
+}
+
+ .information .rightinfo .info h3 {
+   font-size: 1.1rem;
+   color: #4d4d4d;
+   font-weight: bold;
+   display: inline-block;
+   margin-bottom: 8px;
+ }
+
+ .information .rightinfo .info p {
+   font-size: 0.85rem;
+   color: dimgray;
+   margin-bottom: 8px;
+}
+
+#lecture {
+   background-color: silver;
+ }
+
+
+
+.courses {
+  background-color: silver;
+  width: 100%;
+  padding-bottom: 32px;
+
+}
+
+.courses h1 {
+  padding: 32px 0px;
+  font-size: 1.8rem;
+  color: #4d4d4d;
+  font-weight: bold;
+  text-align: center;
+}
+
+.courses .coursestop {
+  margin: 0px 72px 32px 72px;
+  display: flex;
+}
+
+ .courses .coursestop .courseinfo {
+   background-color: white;
+   display: inline-block;
+   margin-right: 32px;
+   width: 100%;
+ }
+
+.courseinfo img {
+  display: inline-block;
+  width: 100%;
+  height: 60%;
+ }
+
+.courses .coursestop .courseinfo .coursestxt {
+  margin: 16px 0px 24px 16px;
+}
+
+.courseinfo h3 {
+   font-size: 1.1rem;
+   color: #4d4d4d;
+   font-weight: bold;
+ }
+
+.courseinfo p {
+   font-size: 0.85rem;
+   color: gray;
+   margin-top: 8px;
+ }
+
+ .courses .coursesbottom {
+   margin: 0px 72px 32px 72px;
+   display: flex;
+ }
+
+  .courses .coursesbottom .courseinfo {
+    background-color: white;
+    display: inline-block;
+    margin-right: 32px;
+    width: 100%;
+  }
+
+ .courses .coursesbottom .courseinfo .coursestxt {
+   margin: 16px 0px 24px 16px;
+ }
+
+
+
+ .thesis {
+   width: 100%;
+   padding-bottom: 32px;
+   display: flex;
+   border-bottom: 1px solid silver;
+ }
+
+ .thesis h1 {
+   font-size: 1.8rem;
+   color: #4d4d4d;
+   font-weight: bold;
+   margin: 32px 0px;
+   text-align: center;
+ }
+
+ .thesis .container {
+   width: 90%;
+   display: inline-block;
+ }
+
+.thesis .video {
+  width: 60%;
+  display: inline-block;
+  margin-right: 48px;
+}
+
+ .thesis .video video {
+   width: 100%;
+   margin: 0px 24px 24px 24px;
+ }
+
+ .thesis .video h3 {
+   font-size: 1.1rem;
+   color: #4d4d4d;
+   font-weight: bold;
+   margin-bottom: 8px;
+   margin-left: 24px;
+ }
+
+ .thesis .video p {
+   font-size: 0.85rem;
+   color: dimgray;
+   margin-left: 24px;
+ }
+
+ .thesis .thesisright {
+   width: 30%;
+   display: inline-block;
+   margin: auto;
+   vertical-align: top;
+ }
+
+ .thesis .thesisright .thesisinfo {
+   display: flex;
+ }
+
+ #prototype {
+   background-color: silver;
+ }
+
+.thesis .thesisright .thesisinfo img {
+  width: 35%;
+  height: 35%;
+  margin: 16px 16px 16px 16px;
+  display: inline-block;
+}
+
+.thesis .thesisright .thesisinfo .thesisinfotxt {
+  display: inline-block;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.thesis .thesisright .thesisinfo h3 {
+  font-size: 1.1rem;
+  color: #4d4d4d;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.thesis .thesisright .thesisinfo p {
+  font-size: 0.85rem;
+  color: dimgray;
+  margin-top: 8px;
+}
+
+
+
+.footer {
+  margin: 16px 24px;
+  display: flex;
+  width: 100%;
+}
+
+.footer h6 {
+  width: 100%;
+  font-size: 0.7rem;
+  color: #333333;
+  display: inline-block;
+}
+
+.footer .footernav {
+  width: 100%;
+  display: inline-block;
+  margin: auto;
+  text-align: right;
+}
+
+.footer .footernav ul {
+  text-align: right;
+  margin-right: 24px;
+}
+
+.footer .footernav ul li {
+  font-size: 0.7rem;
+  color: #333333;
+  display: inline-block;
+  margin-left: 16px;
+}
+
+.footer .footernav ul li a {
+  color: dimgray;
+}
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+  .nav_bar .logo #title {
+    display: none;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .navmobile {
+    width: 100%;
+    display: inline-block;
+    margin-left: 32px;
+  }
+
+
+  .bannerfull {
+    display: block;
+    width: 100%;
+  }
+
+  .bannerfull img {
+    width: 100%;
+    background-color: silver;
+    border: none;
+  }
+
+  .bannerfull .bannertxt {
+    width: 80%;
+    background-color: silver;
+    margin: 32px 16px;
+  }
+
+  .bannerfull .bannertxt .bannerbutton {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    width: 100%;
+  }
+
+
+  .information .leftinfo {
+    display: none;
+  }
+
+  .information .rightinfo {
+    width: 100%;
+  }
+
+  .information .rightinfo .info {
+    margin-top: 16px 16px 64px 16px;
+    display: block;
+    border-bottom: none;
+  }
+
+  .information .rightinfo .info img {
+    width: 100%;
+    height: 180px;
+  }
+
+  .information .rightinfo .info .rightinfotxt {
+    padding: 32px 16px 0px 16px;
+  }
+
+  #lecture {
+   background-color: white;
+ }
+
+
+   .courses {
+    border-top: 1px solid silver;
+    padding-bottom: 32px;
+    border-bottom: 1px solid silver;
+  }
+
+  .courses h1 {
+    background-color: white;
+  }
+
+  .courses .coursestop {
+    display: block;
+    margin: 0px;
+  }
+
+  .courses .coursesbottom {
+    display: block;
+    margin: 0px;
+  }
+
+  .courseinfo img {
+    display: none;
+  }
+
+  .courses .coursestop .courseinfo .coursestxt {
+    background-color: silver;
+    padding: 16px 16px 24px 16px;
+    margin: 8px 16px;
+  }
+
+  .courses .coursesbottom .courseinfo .coursestxt {
+    background-color: silver;
+    padding: 16px 16px 24px 16px;
+    margin: 8px 16px;
+  }
+
+  .courseinfo h3 {
+    width: 100%;
+  }
+
+  .courseinfo p {
+    display: none;
+  }
+
+
+  .thesis {
+    padding-bottom: 24px;
+  }
+
+  .thesis h1 {
+    width: 100%;
+    text-align: center;
+    margin: 32px 32px;
+  }
+
+  .thesis .video {
+    width: 100%;
+    text-align: center;
+  }
+
+  .thesis .video h3 {
+    display: none;
+  }
+
+  .thesis .video p {
+    display: none;
+  }
+
+  .thesis .thesisright {
+    display: none;
+  }
+
+
+  .footer .footernav {
+    display: none;
+  }
+
+}
