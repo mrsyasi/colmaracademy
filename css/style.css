@@ -34,6 +34,14 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  background-color: #3399ff;
+  border-radius: 20px;
+  padding: 4px 8px;
+  color: white;
+  transition: all 300ms linear;
+}
+
 
 
 .nav_bar {
@@ -92,6 +100,16 @@ a {
   color: dimgray;
 }
 
+.navigation ul li:hover {
+  background-color: #3399ff;
+  border-radius: 20px;
+  padding: 4px 8px;
+}
+
+.navigation ul li a:hover {
+  color: white;
+}
+
 .navmobile {
   display: none;
 }
@@ -141,16 +159,22 @@ a {
 
 .bannerfull .bannertxt .bannerbutton {
   background-color: #333333;
+  border-radius: 20px;
   width: 80%;
   padding: 8px 0px;
   text-align: center;
 }
 
-.bannerfull .bannertxt .bannerbutton p {
+.bannerfull .bannertxt .bannerbutton a {
+  font-size: 0.85rem;
   color: white;
   text-align: center;
 }
 
+.bannerfull .bannertxt .bannerbutton:hover {
+  background-color: #3399ff;
+  border-radius: 20px;
+}
 
 
 .information {
@@ -420,6 +444,10 @@ a {
 
 .footer .footernav ul li a {
   color: dimgray;
+}
+
+.footer .footernav ul li a:hover {
+  color: white;
 }
 
 
