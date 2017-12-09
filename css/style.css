@@ -511,7 +511,7 @@ a:hover {
  .information .rightinfomobile {
    display: block;
    width: 100%;
-   margin: 16px 16px 32px 16px;
+   margin: 32px 16px 16px 16px;
 }
 
  .information .rightinfomobile .infomobile {
@@ -542,6 +542,7 @@ a:hover {
     border-top: 1px solid silver;
     padding-bottom: 32px;
     background-color: white;
+    border-bottom: 1px solid silver;
 
   }
 
