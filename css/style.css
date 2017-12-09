@@ -3,14 +3,38 @@ body {
   font-size: 16px;
 }
 
+h1 {
+  font-size: 1.8rem;
+  color: #4d4d4d;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: 1.1rem;
+  color: #4d4d4d;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+h6 {
+  font-size: 0.7rem;
+  color: #333333;
+  line-height: 1.4;
+}
+
+p {
+  font-size: 0.85rem;
+  color: dimgray;
+  line-height: 1.4;
+}
+
 a {
   color: #3399ff;
   text-decoration: none;
 }
 
-h1, h3, h6, p {
-  line-height: 1.4;
-}
+
 
 .nav_bar {
   position:fixed;
@@ -18,35 +42,33 @@ h1, h3, h6, p {
   width: 100%;
   heigth: 64px;
   padding-top: 16px;
-  display: flex;
+  display: inline-flex;
 }
 
 .nav_bar .logo {
-  height: 32px;
-  display: flex;
-  margin-bottom: 16px;
+  height: 40px;
+  display: inline-flex;
+  margin-bottom: 12px;
 }
 
 .nav_bar .logo #colmarlogo {
   margin-left: 24px;
-  display: inline-block;
 }
 
 .nav_bar .logo #title {
-  display: flex;
-  margin-top: 2px;
+  display: inline-flex;
   font-size: 1.2rem;
 }
 
 .nav_bar .logo #title #colmar {
   font-weight: bold;
   color: black;
-  display: inline-block;
+
 }
 
 .nav_bar .logo #title #academy {
   color: silver;
-  display: inline-block;
+
 }
 
 .navigation {
@@ -62,7 +84,7 @@ h1, h3, h6, p {
 .navigation ul li {
   font-size: 0.9rem;
   color: dimgray;
-  display: inline-block;
+  display: inline-flex;
   margin-right: 16px;
 }
 
@@ -79,9 +101,10 @@ h1, h3, h6, p {
 }
 
 .navmobile ul li {
-  display: inline-block;
+  display: inline-flex;
   margin-left: 60px;
 }
+
 
 
 .bannerfull {
@@ -91,8 +114,8 @@ h1, h3, h6, p {
 }
 
 .bannerfull img {
-  width: 60%;
-  height: 60%;
+  width: 54%;
+  height: 54%;
   padding-top: 32px;
   margin-top: 32px;
   border-top: 32px solid silver;
@@ -108,17 +131,11 @@ h1, h3, h6, p {
 }
 
 .bannerfull .bannertxt h1 {
-  font-size: 1.8rem;
-  color: #4d4d4d;
-  font-weight: bold;
   display: inline-block;
   margin: 16px 0px;
 }
 
 .bannerfull .bannertxt h3 {
-  font-size: 1.1rem;
-  color: #4d4d4d;
-  font-weight: bold;
   margin: 16px 0px;
 }
 
@@ -138,45 +155,36 @@ h1, h3, h6, p {
 
 .information {
   width: 100%;
-  display: flex;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .information .leftinfo {
-  width: 100%;
+  width: 60%;
   border-right: 1px solid silver;
 }
 
 .information .leftinfo img {
-  width: 60%;
+  width: 90%;
   height: auto;
   margin: 32px 24px;
 }
 
-.information .leftinfo img .imgmobile {
-  display: none;
-}
-
 .information .leftinfo .leftinfotxt {
-  width: 57%;
+  width: 90%;
 }
 
 .information h1 {
   margin-left: 24px;
   margin-bottom: 24px;
-  font-size: 1.8rem;
-  color: #4d4d4d;
-  font-weight: bold;
 }
 
  .information .leftinfo p {
-   font-size: 0.85rem;
-   color: dimgray;
    margin-left: 24px;
  }
 
  .information .leftinfo h6 {
-   font-size: 0.7rem;
-   color: #333333;
    margin-left: 24px;
    margin-top: 24px;
    margin-bottom: 32px;
@@ -188,7 +196,7 @@ h1, h3, h6, p {
 }
 
  .information .rightinfo .info {
-   display: flex;
+   display: inline-flex;
    margin: auto;
    padding: 16px;
    border-bottom: 3px solid silver;
@@ -202,21 +210,14 @@ h1, h3, h6, p {
 
  .information .rightinfo .info .rightinfotxt {
    width: 65%;
-   display: inline-block;
    margin: auto;
 }
 
  .information .rightinfo .info h3 {
-   font-size: 1.1rem;
-   color: #4d4d4d;
-   font-weight: bold;
-   display: inline-block;
    margin-bottom: 8px;
  }
 
  .information .rightinfo .info p {
-   font-size: 0.85rem;
-   color: dimgray;
    margin-bottom: 8px;
 }
 
@@ -235,9 +236,6 @@ h1, h3, h6, p {
 
 .courses h1 {
   padding: 32px 0px;
-  font-size: 1.8rem;
-  color: #4d4d4d;
-  font-weight: bold;
   text-align: center;
 }
 
@@ -251,6 +249,7 @@ h1, h3, h6, p {
    display: inline-block;
    margin-right: 32px;
    width: 100%;
+   overflow: hidden;
  }
 
 .courseinfo img {
@@ -261,19 +260,8 @@ h1, h3, h6, p {
 
 .courses .coursestop .courseinfo .coursestxt {
   margin: 16px 0px 24px 16px;
+  padding-bottom: 24px;
 }
-
-.courseinfo h3 {
-   font-size: 1.1rem;
-   color: #4d4d4d;
-   font-weight: bold;
- }
-
-.courseinfo p {
-   font-size: 0.85rem;
-   color: gray;
-   margin-top: 8px;
- }
 
  .courses .coursesbottom {
    margin: 0px 72px 32px 72px;
@@ -285,10 +273,12 @@ h1, h3, h6, p {
     display: inline-block;
     margin-right: 32px;
     width: 100%;
+    overflow: hidden;
   }
 
  .courses .coursesbottom .courseinfo .coursestxt {
    margin: 16px 0px 24px 16px;
+   padding-bottom: 24px;
  }
 
 
@@ -301,9 +291,6 @@ h1, h3, h6, p {
  }
 
  .thesis h1 {
-   font-size: 1.8rem;
-   color: #4d4d4d;
-   font-weight: bold;
    margin: 32px 0px;
    text-align: center;
  }
@@ -325,16 +312,11 @@ h1, h3, h6, p {
  }
 
  .thesis .video h3 {
-   font-size: 1.1rem;
-   color: #4d4d4d;
-   font-weight: bold;
    margin-bottom: 8px;
    margin-left: 24px;
  }
 
  .thesis .video p {
-   font-size: 0.85rem;
-   color: dimgray;
    margin-left: 24px;
  }
 
@@ -347,6 +329,7 @@ h1, h3, h6, p {
 
  .thesis .thesisright .thesisinfo {
    display: flex;
+   overflow: hidden;
  }
 
  #prototype {
@@ -367,31 +350,53 @@ h1, h3, h6, p {
 }
 
 .thesis .thesisright .thesisinfo h3 {
-  font-size: 1.1rem;
-  color: #4d4d4d;
-  font-weight: bold;
   display: inline-block;
 }
 
 .thesis .thesisright .thesisinfo p {
-  font-size: 0.85rem;
-  color: dimgray;
   margin-top: 8px;
+}
+
+
+
+.rrss {
+  display: inline-flex;
+  width: 100%;
+  padding: 24px;
+  background-color: silver;
+
+}
+
+.rrss h3 {
+  color: #3399ff;
+  font-size: 1.4rem;
+  text-align: right;
+  width: 40%;
+}
+
+.rrss ul {
+  width: 50%;
+  text-align: left;
+}
+
+.rrss ul li {
+  display: inline;
+}
+
+.rrss a {
+  margin-left: 20px;
 }
 
 
 
 .footer {
   margin: 16px 24px;
-  display: flex;
+  display: inline-flex;
   width: 100%;
 }
 
 .footer h6 {
   width: 100%;
-  font-size: 0.7rem;
-  color: #333333;
-  display: inline-block;
 }
 
 .footer .footernav {
@@ -559,6 +564,23 @@ h1, h3, h6, p {
 
   .thesis .thesisright {
     display: none;
+  }
+
+
+
+  .rrss h3 {
+    display: none;
+  }
+
+  .rrss ul {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .rrss a {
+    margin: 0px;
   }
 
 
